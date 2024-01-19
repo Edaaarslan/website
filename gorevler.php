@@ -40,10 +40,12 @@
     // Yeni görev ekleme formu
     echo "<h2>Yeni Görev Ekle</h2>";
     echo "<form action='yeni_gorev_ekle.php' method='post'>";
+    echo "Proje ID: <input type='number' name='proje_id' required><br>";
     echo "Görev Adı: <input type='text' name='gorev_adi' required><br>";
-    echo "Başlangıç Tarihi: <input type='date' name='baslangic_tarihi' required><br>";
+    echo "Başlangıç Tarihi: <input type='date' name='baslama_tarihi' required><br>";
     echo "Adam Gün Değeri: <input type='number' name='adamgun_degeri' required><br>";
     echo "Bitiş Tarihi: <input type='date' name='bitis_tarihi' required><br>";
+    echo "Durum: <input type='text' name='durum' required><br>";
     echo "<input type='submit' value='Görev Ekle'>";
     echo "</form>";
 
